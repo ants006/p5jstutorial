@@ -25,12 +25,12 @@ function setup()
 
 function draw()
 {
-	background(125,125,125)
+	background(245,12,12)
 
 
 	// Example 1: easy to understand - Start
 
-	image(imgCatInMug,10,150);
+	image(imgCatInMug,10,150,400,250);
 
 	// Example 1: easy to understand - End
 
