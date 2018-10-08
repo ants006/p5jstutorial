@@ -7,11 +7,11 @@ var button2Y;
 
 function preload()
 {
-	imgCatInMug = loadImage('https://bleungwpg.github.io/p5jsTutorial3.1/CatInMug.png');
+	imgCatInMug = loadImage('https://ants006.github.io/p5jstutorial/p5jsTutorial3.1-master/redpanda.jpg');
 
-	buttonClick = loadImage('https://bleungwpg.github.io/p5jsTutorial3.1/buttonClick.png');
-	buttonHoverOver = loadImage('https://bleungwpg.github.io/p5jsTutorial3.1/buttonHoverOver.png');
-	buttonNothing = loadImage('https://bleungwpg.github.io/p5jsTutorial3.1/buttonNothing.png');
+	buttonClick = loadImage('https://ants006.github.io/p5jstutorial/p5jsTutorial3.1-master/button_dabuttonfactory-ltd.png');
+buttonHoverOver = loadImage('https://ants006.github.io/p5jstutorial/p5jsTutorial3.1-master/button_red-panda-d.png');
+  buttonNothing = loadImage('https://ants006.github.io/p5jstutorial/p5jsTutorial3.1-master/button_redpandaboom.png');
 }
 
 function setup()
