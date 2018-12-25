@@ -31,11 +31,28 @@ var health;
 var bgm;
 
 
+function preload()
+{
+	// load sound file into variable bgm
+	bgm = loadSound("https://ants006.github.io/p5jstutorial/p5jsTutorial4.1-master/sounds/bensound-creativeminds.mp3");
+
+}
+
+function setup()
+{
+
+	// play music during setup so that it doesn't loop infinitely
+	bgm.play();
+}
+
+
+
 
 var canvasID;
 var locked;
 
 var numberOfAnswers;
+
 
 function preload()
 {
@@ -98,33 +115,7 @@ function setup()
 	canvasID = 0;
 	locked = false;
 }
-// declare bgm variable
-var bgm;
 
-function preload()
-{
-	// load sound file into variable bgm
-	bgm = loadSound("https://ants006.github.io/p5jstutorial/p5jsTutorial4.1-master/sounds/bensound-creativeminds.mp3");
-
-}
-
-function setup()
-{
-
-	// play music during setup so that it doesn't loop infinitely
-	bgm.play();
-}
-
-function draw()
-{
-	textSize(12);
-
-	background(125,125,125)
-
-	text("Credit for music goes to Benjamin TISSOT from www.bensound.com",10,40);
-
-
-}
 
 
 function draw()
@@ -211,10 +202,10 @@ function isButtonClicked(correct,nextID)
 // handles all game over code
 function gameOver()
 {
-	textSize(32);
+	textSize(100);
 	fill(255,255,255);
-	text("GAME OVER!",300,250);
-	textSize(12);
+	text("GAME OVER!",350,300);
+	textSize(50);
 }
 
 // shows questions on the screen
